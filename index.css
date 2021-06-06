@@ -1,0 +1,55 @@
+﻿body {
+    background-color: #232323;
+    font-family: Sans-serif;
+    font-size: 62%;
+    margin: 0;
+}
+h1 {
+    color: white;
+    background-color: #32a852;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 17px 0;
+}
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.square {
+    width: 30%;
+    background-color: #32a852;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+}
+#controls {
+    background: white;
+    height: 40px;
+    text-align: center;
+    color: black;
+}
+button {
+    background-color: white;
+    border: none;
+    color: black;
+    font-family: Sans-serif;
+    text-transform: uppercase;
+    height: 100%;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+button:hover {
+    background-color: #32a852;
+    color: white;
+}
+.square {
+    border-radius: 20%;
+}
+#color-display {
+    display: block;
+    font-size: 80px;
+}

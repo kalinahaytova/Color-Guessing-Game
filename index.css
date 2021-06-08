@@ -46,6 +46,10 @@ button:hover {
     background-color: #32a852;
     color: white;
 }
+.selected {
+    background-color: #32a852;
+    color: white;
+}
 .square {
     border-radius: 20%;
 }
@@ -53,3 +57,11 @@ button:hover {
     display: block;
     font-size: 80px;
 }
+#message {
+    text-transform: uppercase;
+    color: #2C8E99;
+    font-size: 1.5em;
+    display: inline-block;
+    width: 20%;
+}
+
